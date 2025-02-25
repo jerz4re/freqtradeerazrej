@@ -2,7 +2,7 @@
 version: '3'
 services:
   freqtrade:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     # build:
     #   context: .
     #   dockerfile: "./docker/Dockerfile.custom"
@@ -36,7 +36,7 @@ services:
       --config /freqtrade/user_data/config-telegram-general.json
     #  --config /freqtrade/user_data/config-discord1.json
   freqtrade2:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     # build:
     #   context: .
     #   dockerfile: "./docker/Dockerfile.custom"
@@ -65,7 +65,7 @@ services:
       --config /freqtrade/user_data/config-telegram-general.json
     #  --config /freqtrade/user_data/config-discord2.json
   freqtrade3:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     # build:
     #   context: .
     #   dockerfile: "./docker/Dockerfile.custom"
@@ -94,7 +94,7 @@ services:
       --config /freqtrade/user_data/config-telegram-general.json
     #  --config /freqtrade/user_data/config-discord3.json
   freqtrade4:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     restart: unless-stopped
     container_name: freqtrade4
     volumes:

@@ -1,7 +1,7 @@
 ---
 services:
   freqtrade:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     restart: unless-stopped
     container_name: freqtrade
     volumes:
@@ -22,7 +22,7 @@ services:
       --config /freqtrade/user_data/config-telegram-general.json
       --config /freqtrade/user_data/config-api.json
   freqtrade2:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     restart: unless-stopped
     container_name: freqtrade2
     volumes:
@@ -43,7 +43,7 @@ services:
       --config /freqtrade/user_data/config-telegram-general.json
       --config /freqtrade/user_data/config-api.json
   freqtrade3:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     restart: unless-stopped
     container_name: freqtrade3
     volumes:
@@ -64,7 +64,7 @@ services:
       --config /freqtrade/user_data/config-telegram-general.json
       --config /freqtrade/user_data/config-api.json
   freqtrade4:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     restart: unless-stopped
     container_name: freqtrade4
     volumes:

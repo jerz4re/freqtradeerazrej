@@ -2,7 +2,7 @@
 version: '3'
 services:
   freqai:
-    image: jerz4re/freqtradeerazrej:linux-amd64
+    image: jerz4re/freqtradeerazrej:develop
     restart: unless-stopped
     container_name: freqai
     volumes:

@@ -1,5 +1,5 @@
 ARG sourceimage=jerz4re/freqtradeerazrej
-ARG sourcetag=linux-amd64
+ARG sourcetag=develop
 FROM ${sourceimage}:${sourcetag}
 
 # Install dependencies
